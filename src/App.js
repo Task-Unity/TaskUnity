@@ -7,7 +7,7 @@ const App = () => {
     <Router>
       <div>
         <Switch>
-          <Route path="/login" component={Login} />
+          <Route path="/" component={Login} />
           {/* Add more routes for different pages */}
         </Switch>
       </div>
